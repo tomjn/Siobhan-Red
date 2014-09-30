@@ -435,7 +435,7 @@ a {
   background: #cf0411; }
 
 a:hover, a:focus {
-  color: white; }
+  color: #fc7079; }
 
 #adminmenu div.wp-menu-name {
   padding: 8px 0;
@@ -458,3 +458,6 @@ a:hover, a:focus {
 
 .wrap .add-new-h2, .wrap .add-new-h2:active {
   background: #ffffff; }
+
+#editable-post-name {
+  background: #ffd3d6; }

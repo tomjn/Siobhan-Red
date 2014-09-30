@@ -519,7 +519,7 @@ a {
 }
 
 a:hover, a:focus {
-	color: lighten( $adminbar-base-color, 60% );
+	color: lighten( $adminbar-base-color, 30% );
 	//#FAC9B2;
 }
 
@@ -546,4 +546,8 @@ a:hover, a:focus {
 
 .wrap .add-new-h2, .wrap .add-new-h2:active {
 	background: #ffffff;
+}
+
+#editable-post-name {
+	background: saturate( lighten( $adminbar-base-color, 50% ), 100% );
 }
